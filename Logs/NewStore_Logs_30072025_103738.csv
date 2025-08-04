@@ -1,0 +1,106 @@
+﻿Scenario,Product,Product_Name,ProductID,Status
+Period 1,Product,CO - $10 Popcorn & Nugget Feast,33071,Success
+Period 1," Item",CO - $10 Popcorn & Nugget Feast,33071,Success
+Period 1,Product,CO - $10 Popcorn & Nugget Feast,33074,Success
+Period 1," Item",CO - $10 Popcorn & Nugget Feast,33074,Success
+Period 1,Product,FO - $10 Popcorn & Nugget Feast,33072,Success
+Period 1," Item",FO - $10 Popcorn & Nugget Feast,33072,Success
+Period 1,Product,FO - $10 Popcorn & Nugget Feast,33073,Success
+Period 1," Item",FO - $10 Popcorn & Nugget Feast,33073,Success
+Period 1,Product,Packed Lunch,32839,Success
+Period 1,Product,Packed Lunch,32842,Success
+Period 1,Product,Boneless Dinner,32840,Success
+Period 1," Item",Boneless Dinner,32840,Success
+Period 1,Product,Summer Feast,33051,Success
+Period 1," Item",Summer Feast,33051,Success
+Period 1,Product,Summer Feast,33052,Success
+Period 1," Item",Summer Feast,33052,Success
+Period 1,Product,Summer Feast,33053,Success
+Period 1," Item",Summer Feast,33053,Success
+Period 1,Product,Summer Feast,33054,Success
+Period 1," Item",Summer Feast,33054,Success
+Period 1,Product,Supercharged Loaded Bowl,32993,Success
+Period 1," Item",Supercharged Loaded Bowl,32993,Success
+Period 1,Product,Zinger® Chipster,31155,Success
+Period 1," Item",Zinger® Chipster,31155,Success
+Period 1,Product,Zinger® Chipster Combo,32510,Success
+Period 1," Item",Zinger® Chipster Combo,32510,Success
+Period 1,Product,Fried Cookie Dough & Mousse,32834,Success
+Period 1," Item",Fried Cookie Dough & Mousse,32834,Success
+Period 1,Product,Go Bucket Hot & Crispy™,32677,Success
+Period 1," Item",Go Bucket Hot & Crispy™,32677,Success
+Period 1,Product,FO - $10 Popcorn & Nugget Feast,33072,Success
+Period 1,Product,FO - $10 Popcorn & Nugget Feast,33073,Success
+Period 2,Product,$1 Wicked Wing,32246,Success
+Period 2," Item",$1 Wicked Wing,32246,Success
+Period 2,Product,$7.95 Stacked Snack,33077,Success
+Period 2,Product,NEW $9.95 Luxe Lunch,33078,Success
+Period 2,Product,NEW $9.95 Luxe Lunch,33083,Success
+Period 2,Product,NEW $24.95 Burger Dinner,33079,Success
+Period 2,Product,Packed Lunch,32839,Success
+Period 2,Product,Packed Lunch,32842,Success
+Period 2,Product,Boneless Dinner,32840,Success
+Period 2," Item",Boneless Dinner,32840,Success
+Period 2,Product,Supercharged Loaded Bowl,32993,Success
+Period 2," Item",Supercharged Loaded Bowl,32993,Success
+Period 2,Product,Original Crispy Chipster Burger,32819,Success
+Period 2," Item",Original Crispy Chipster Burger,32819,Success
+Period 2,Product,Original Crispy Chipster Burger Combo,32821,Success
+Period 2," Item",Original Crispy Chipster Burger Combo,32821,Success
+Period 2,Product,Fried Cookie Dough & Mousse,32834,Success
+Period 2," Item",Fried Cookie Dough & Mousse,32834,Success
+Period 2,Product,Go Bucket Hot & Crispy™,32677,Success
+Period 2," Item",Go Bucket Hot & Crispy™,32677,Success
+Period 2,Product,$1 Wicked Wing,32246,Success
+Period 3,Product,$8 Hot & Crispy™ Box,33100,Success
+Period 3," Item",$8 Hot & Crispy™ Box,33100,Success
+Period 3,Product,$7.95 Stacked Snack,33077,Success
+Period 3," Item",$7.95 Stacked Snack,33077,Success
+Period 3,Product,NEW $9.95 Luxe Lunch,33078,Success
+Period 3," Item",NEW $9.95 Luxe Lunch,33078,Success
+Period 3,Product,NEW $9.95 Luxe Lunch,33083,Success
+Period 3," Item",NEW $9.95 Luxe Lunch,33083,Success
+Period 3,Product,NEW $24.95 Burger Dinner,33079,Success
+Period 3," Item",NEW $24.95 Burger Dinner,33079,Success
+Period 3,Product,Packed Lunch,32839,Success
+Period 3," Item",Packed Lunch,32839,Success
+Period 3,Product,Packed Lunch,32842,Success
+Period 3," Item",Packed Lunch,32842,Success
+Period 3,Product,Boneless Dinner,32840,Success
+Period 3," Item",Boneless Dinner,32840,Success
+Period 3,Product,Zinger® Nachos,33094,Success
+Period 3," Item",Zinger® Nachos,33094,Success
+Period 3,Product,Combo,33095,Success
+Period 3," Item",Combo,33095,Success
+Period 3,Product,Twister® Zinger® Nachos,33096,Success
+Period 3," Item",Twister® Zinger® Nachos,33096,Success
+Period 3,Product,Combo,33097,Success
+Period 3," Item",Combo,33097,Success
+Period 3,Product,Box,33098,Success
+Period 3," Item",Box,33098,Success
+Period 3,Product,Box,33107,Success
+Period 3," Item",Box,33107,Success
+Period 3,Product,Loaded Nachos Chips,33117,Success
+Period 3," Item",Loaded Nachos Chips,33117,Success
+Period 3,Product,Zinger Crunch Sliders,32231,Success
+Period 3," Item",Zinger Crunch Sliders,32231,Success
+Period 3,Product,Combo,32808,Success
+Period 3," Item",Combo,32808,Success
+Period 3,Product,Zinger® Bánh Mì,33108,Success
+Period 3," Item",Zinger® Bánh Mì,33108,Success
+Period 3,Product,Combo,33110,Success
+Period 3," Item",Combo,33110,Success
+Period 3,Product,Box,33112,Success
+Period 3," Item",Box,33112,Success
+Period 3,Product,Supercharged Loaded Bowl,32993,Success
+Period 3," Item",Supercharged Loaded Bowl,32993,Success
+Period 3,Product,Kentucky Boss™,33109,Success
+Period 3," Item",Kentucky Boss™,33109,Success
+Period 3,Product,Combo,33111,Success
+Period 3," Item",Combo,33111,Success
+Period 3,Product,Box,33113,Success
+Period 3," Item",Box,33113,Success
+Period 3,Product,Mystery Box,33114,Success
+Period 3," Item",Mystery Box,33114,Success
+Period 3,Product,Mystery Box,33114,Success
+Period 3,Product,$8 Hot & Crispy™ Box,33101,Success
