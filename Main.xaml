@@ -195,7 +195,7 @@
               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ExceptionEmail - Invoke Workflow File (ExceptionEmail.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="ExceptionEmail.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:String" x:Key="exceptionFile">[ExceptionScreenshotPath]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="EmailSubject">Exception at NewStoreExclusion</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="EmailSubject">NewStoreExclusion Exception</InArgument>
                   <InArgument x:TypeArguments="x:String" x:Key="ErrorMessage">[exception.Message]</InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
