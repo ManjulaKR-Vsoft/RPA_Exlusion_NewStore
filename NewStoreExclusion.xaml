@@ -171,7 +171,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="NewStoreExclusion" sap:VirtualizedContainerService.HintSize="1950,8287" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="NewStoreExclusion" sap:VirtualizedContainerService.HintSize="1950,11449" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="SharePointURL" />
       <Variable x:TypeArguments="umfm:O365DriveRemoteItem[]" Name="ExclusionList" />
@@ -246,7 +246,7 @@
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
     </Sequence>
-    <umaf:GetFileListConnections AllColumns="{x:Array Type=umsm:Office365SharepointListColumnSlim}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" DynamicMetadataFilter="{x:Null}" Filter="{x:Null}" FreeTextFilter="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID0}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" MetadataFilter="{x:Null}" QueryFilter="{x:Null}" SharepointLibraryItemFriendlyName="{x:Null}" SharepointListId="{x:Null}" SharepointSiteUrl="{x:Null}" SimpleSearch="{x:Null}" AuthScopesInvalid="False" ConnectionId="ad20fb3b-3e16-4e96-9b12-8e15cc2f0730" DisplayName="Get File or Folder List" sap:VirtualizedContainerService.HintSize="1950,184" sap2010:WorkflowViewState.IdRef="GetFileListConnections_1" IncludeSubfolders="False" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[SharePointURL]" MaxResults="200" Result="[ExclusionList]" SearchMode="UseSimple" TrimDuplicates="False" UseConnectionService="True" WhatToReturn="Files" WorkingWithDocumentLibrary="False">
+    <umaf:GetFileListConnections AllColumns="{x:Array Type=umsm:Office365SharepointListColumnSlim}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" DynamicMetadataFilter="{x:Null}" Filter="{x:Null}" FreeTextFilter="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID0}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" MetadataFilter="{x:Null}" QueryFilter="{x:Null}" SharepointLibraryItemFriendlyName="{x:Null}" SharepointListId="{x:Null}" SharepointSiteUrl="{x:Null}" SimpleSearch="{x:Null}" AuthScopesInvalid="False" ConnectionId="895f9e23-cc61-43c3-b83c-03bd06a2d701" DisplayName="Get File or Folder List" sap:VirtualizedContainerService.HintSize="1950,184" sap2010:WorkflowViewState.IdRef="GetFileListConnections_1" IncludeSubfolders="False" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[SharePointURL]" MaxResults="200" Result="[ExclusionList]" SearchMode="UseSimple" TrimDuplicates="False" UseConnectionService="True" WhatToReturn="Files" WorkingWithDocumentLibrary="False">
       <umaf:GetFileListConnections.DriveItemArgument>
         <umafm:DriveItemArgument BrowserDriveId="{x:Null}" BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentDriveId="{x:Null}" BrowserParentDriveName="{x:Null}" BrowserParentItemFriendlyName="{x:Null}" BrowserParentItemId="{x:Null}" BrowserParentPath="{x:Null}" BrowserSiteUrl="{x:Null}" BrowserSpecificUrl="{x:Null}" ConnectionDescriptor="{x:Null}" FullPathHint="{x:Null}" Item="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntrySiteUrl="{x:Null}" ReferenceId="{x:Null}" ConnectionKey="895f9e23-cc61-43c3-b83c-03bd06a2d701" ItemSelectionMode="ItemUrl" ManualEntryItemUrl="[SharePointURL]" ParentFullPathHint="">
           <umafm:DriveItemArgument.ItemIdBackup>
@@ -444,13 +444,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:ForEach x:TypeArguments="umfm:O365DriveRemoteItem" CurrentIndex="{x:Null}" DisplayName="For Each currentO365DriveRemoteItem" sap:VirtualizedContainerService.HintSize="1950,6115" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ExclusionList]">
+    <ui:ForEach x:TypeArguments="umfm:O365DriveRemoteItem" CurrentIndex="{x:Null}" DisplayName="For Each currentO365DriveRemoteItem" sap:VirtualizedContainerService.HintSize="1950,9277" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ExclusionList]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="umfm:O365DriveRemoteItem">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="umfm:O365DriveRemoteItem" Name="currentO365DriveRemoteItem" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1948,5985" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1948,9147" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -464,7 +464,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </WriteLine>
-            <If Condition="[currentO365DriveRemoteItem.FullName=&quot;New Store - Exclusion Logic.xlsx&quot;]" sap:VirtualizedContainerService.HintSize="1914,5803" sap2010:WorkflowViewState.IdRef="If_22">
+            <If Condition="[currentO365DriveRemoteItem.FullName=&quot;New Store - Exclusion Logic.xlsx&quot;]" sap:VirtualizedContainerService.HintSize="1914,8965" sap2010:WorkflowViewState.IdRef="If_22">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -472,14 +472,14 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1912,5566" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1912,8728" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <umae:ForEachSheetConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID2}" Length="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntryItemUrl="{x:Null}" ManualEntrySiteUrl="{x:Null}" AuthScopesInvalid="False" ConnectionId="ad20fb3b-3e16-4e96-9b12-8e15cc2f0730" CurrentItemVariableName="CurrentItem" DisplayName="For Each Sheet in Workbook" sap:VirtualizedContainerService.HintSize="1878,5506" sap2010:WorkflowViewState.IdRef="ForEachSheetConnections_1" Item="[currentO365DriveRemoteItem]" ItemSelectionMode="UseExisting" UseConnectionService="True">
+                  <umae:ForEachSheetConnections BrowserDriveName="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserSiteUrl="{x:Null}" ConnectionAccountName="{x:Null}" ItemIdBackup="{x:Reference __ReferenceID2}" Length="{x:Null}" ManualEntryDriveName="{x:Null}" ManualEntryItemFullPath="{x:Null}" ManualEntryItemId="{x:Null}" ManualEntryItemRelativePath="{x:Null}" ManualEntryItemUrl="{x:Null}" ManualEntrySiteUrl="{x:Null}" AuthScopesInvalid="False" ConnectionId="895f9e23-cc61-43c3-b83c-03bd06a2d701" CurrentItemVariableName="CurrentItem" DisplayName="For Each Sheet in Workbook" sap:VirtualizedContainerService.HintSize="1878,8668" sap2010:WorkflowViewState.IdRef="ForEachSheetConnections_1" Item="[currentO365DriveRemoteItem]" ItemSelectionMode="UseExisting" UseConnectionService="True">
                     <umae:ForEachSheetConnections.Body>
                       <ActivityAction x:TypeArguments="x:String, x:Int32">
                         <ActivityAction.Argument1>
@@ -488,7 +488,7 @@
                         <ActivityAction.Argument2>
                           <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItemIndex" />
                         </ActivityAction.Argument2>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1876,5323" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1876,8485" sap2010:WorkflowViewState.IdRef="Sequence_29">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -592,7 +592,7 @@
                               </scg:List>
                             </ui:FilterDataTable.SelectColumns>
                           </ui:FilterDataTable>
-                          <If Condition="[dtInput.RowCount &gt;= 1 And CurrentItem=&quot;New Store&quot;]" sap:VirtualizedContainerService.HintSize="1842,4777" sap2010:WorkflowViewState.IdRef="If_23">
+                          <If Condition="[dtInput.RowCount &gt;= 1 And CurrentItem=&quot;New Store&quot;]" sap:VirtualizedContainerService.HintSize="1842,7939" sap2010:WorkflowViewState.IdRef="If_23">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -600,20 +600,20 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1840,4367" sap2010:WorkflowViewState.IdRef="Sequence_134">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1840,7529" sap2010:WorkflowViewState.IdRef="Sequence_134">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[RowIndex]" DataTable="[dtInput]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1806,4307" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+                                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[RowIndex]" DataTable="[dtInput]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1806,7469" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
                                   <ui:ForEachRow.Body>
                                     <ActivityAction x:TypeArguments="sd:DataRow">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                       </ActivityAction.Argument>
-                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1804,4136" sap2010:WorkflowViewState.IdRef="Sequence_135">
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1804,7298" sap2010:WorkflowViewState.IdRef="Sequence_135">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -705,7 +705,7 @@
                                             <InArgument x:TypeArguments="x:String">[TestRestaurant]</InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1770,3597" sap2010:WorkflowViewState.IdRef="TryCatch_15">
+                                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1770,6759" sap2010:WorkflowViewState.IdRef="TryCatch_15">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -713,20 +713,20 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <TryCatch.Try>
-                                            <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="1768,2774" sap2010:WorkflowViewState.IdRef="Sequence_262">
+                                            <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="1768,5936" sap2010:WorkflowViewState.IdRef="Sequence_262">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1734,2714" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
+                                              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1734,5876" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
                                                 <uix:NApplicationCard.Body>
                                                   <ActivityAction x:TypeArguments="x:Object">
                                                     <ActivityAction.Argument>
                                                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                     </ActivityAction.Argument>
-                                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1700,2474" sap2010:WorkflowViewState.IdRef="Sequence_222">
+                                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1700,5636" sap2010:WorkflowViewState.IdRef="Sequence_222">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1185,22 +1185,22 @@
                                                         </ui:Click.Target>
                                                       </ui:Click>
                                                       <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1666,169" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="2" Version="V5" />
-                                                      <uix:NCheckState DisplayName="Check App State 'Product Exclusion Detai…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1666,1518" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="5" Version="V5">
+                                                      <uix:NCheckState DisplayName="Check App State 'Product Exclusion Detai…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1666,4680" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="5" Version="V5">
                                                         <uix:NCheckState.IfExists>
-                                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="554,1229" sap2010:WorkflowViewState.IdRef="Sequence_219">
+                                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1162,4431" sap2010:WorkflowViewState.IdRef="Sequence_219">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <Sequence DisplayName="Select Entity" sap:VirtualizedContainerService.HintSize="520,1167" sap2010:WorkflowViewState.IdRef="Sequence_149">
+                                                            <Sequence DisplayName="Select Entity" sap:VirtualizedContainerService.HintSize="1128,4369" sap2010:WorkflowViewState.IdRef="Sequence_149">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <If Condition="[Entity=&quot;Both&quot;]" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="If_40">
+                                                              <If Condition="[Entity=&quot;Both&quot;]" sap:VirtualizedContainerService.HintSize="1094,57" sap2010:WorkflowViewState.IdRef="If_40">
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1242,7 +1242,7 @@
                                                                   </Sequence>
                                                                 </If.Else>
                                                               </If>
-                                                              <Assign sap:VirtualizedContainerService.HintSize="486,114" sap2010:WorkflowViewState.IdRef="Assign_61">
+                                                              <Assign sap:VirtualizedContainerService.HintSize="1094,114" sap2010:WorkflowViewState.IdRef="Assign_61">
                                                                 <Assign.To>
                                                                   <OutArgument x:TypeArguments="s:String[]">[arrEntity]</OutArgument>
                                                                 </Assign.To>
@@ -1250,19 +1250,19 @@
                                                                   <InArgument x:TypeArguments="s:String[]">[Entity.Split(","c)]</InArgument>
                                                                 </Assign.Value>
                                                               </Assign>
-                                                              <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[currentIndex]" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="486,909" sap2010:WorkflowViewState.IdRef="ForEach`1_8" Values="[arrEntity]">
+                                                              <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[currentIndex]" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="1094,4111" sap2010:WorkflowViewState.IdRef="ForEach`1_8" Values="[arrEntity]">
                                                                 <ui:ForEach.Body>
                                                                   <ActivityAction x:TypeArguments="x:String">
                                                                     <ActivityAction.Argument>
                                                                       <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                                                     </ActivityAction.Argument>
-                                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,786" sap2010:WorkflowViewState.IdRef="Sequence_234">
+                                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1092,3988" sap2010:WorkflowViewState.IdRef="Sequence_234">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <uix:NCheckState DisplayName="Check App State 'Entity*'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NCheckState_7" Timeout="3" Version="V5">
+                                                                      <uix:NCheckState DisplayName="Check App State 'Entity*'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1058,57" sap2010:WorkflowViewState.IdRef="NCheckState_7" Timeout="3" Version="V5">
                                                                         <uix:NCheckState.IfExists>
                                                                           <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,194" sap2010:WorkflowViewState.IdRef="Sequence_250">
                                                                             <sap:WorkflowViewStateService.ViewState>
@@ -1313,7 +1313,7 @@
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                       </uix:NCheckState>
-                                                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Click_29" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="1058,139" sap2010:WorkflowViewState.IdRef="Click_29" KeyModifiers="None" MouseButton="BTN_LEFT">
                                                                         <ui:Click.CursorPosition>
                                                                           <ui:CursorPosition Position="Center">
                                                                             <ui:CursorPosition.OffsetX>
@@ -1335,7 +1335,7 @@
                                                                           </ui:Target>
                                                                         </ui:Click.Target>
                                                                       </ui:Click>
-                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_17" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
+                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1058,286" sap2010:WorkflowViewState.IdRef="NTypeInto_17" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
                                                                         <uix:NTypeInto.Target>
                                                                           <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="164b0d0a-8fd8-40ff-a878-03d45978b9cb" ContentHash="i8uxHG8550KJK3cgQpgXcw" CvElementArea="75, 668, 272, 40" CvType="InputBox" DesignTimeRectangle="77, 669, 269, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="a8bc0a2b-51e4-4f67-a121-dea337f119c3" InformativeScreenshot="c43b91a68d2f5bf5533172f16fa0c2a5.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/XxNi4oAQ7k-FUNFd8tsl8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                                                                         </uix:NTypeInto.Target>
@@ -1350,7 +1350,7 @@
                                                                           </uix:VerifyExecutionTypeIntoOptions>
                                                                         </uix:NTypeInto.VerifyOptions>
                                                                       </uix:NTypeInto>
-                                                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Click_30" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="1058,139" sap2010:WorkflowViewState.IdRef="Click_30" KeyModifiers="None" MouseButton="BTN_LEFT">
                                                                         <ui:Click.CursorPosition>
                                                                           <ui:CursorPosition Position="Center">
                                                                             <ui:CursorPosition.OffsetX>
@@ -1372,7 +1372,7 @@
                                                                           </ui:Target>
                                                                         </ui:Click.Target>
                                                                       </ui:Click>
-                                                                      <Sequence DisplayName="Select Products" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_209">
+                                                                      <Sequence DisplayName="Select Products" sap:VirtualizedContainerService.HintSize="1058,57" sap2010:WorkflowViewState.IdRef="Sequence_209">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3410,14 +3410,14 @@
                                                                           </sap:WorkflowViewStateService.ViewState>
                                                                         </ui:CommentOut>
                                                                       </Sequence>
-                                                                      <Sequence DisplayName="Dates and Submit" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_306">
+                                                                      <Sequence DisplayName="Dates and Submit" sap:VirtualizedContainerService.HintSize="1058,3250" sap2010:WorkflowViewState.IdRef="Sequence_306">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                        <If Condition="[currentIndex = 0]" sap:VirtualizedContainerService.HintSize="1022,57" sap2010:WorkflowViewState.IdRef="If_48">
+                                                                        <If Condition="[currentIndex = 0]" sap:VirtualizedContainerService.HintSize="1024,57" sap2010:WorkflowViewState.IdRef="If_48">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3634,20 +3634,20 @@
                                                                             </Sequence>
                                                                           </If.Else>
                                                                         </If>
-                                                                        <Sequence DisplayName="Submit" sap:VirtualizedContainerService.HintSize="1022,1785" sap2010:WorkflowViewState.IdRef="Sequence_316">
+                                                                        <Sequence DisplayName="Submit" sap:VirtualizedContainerService.HintSize="1024,3110" sap2010:WorkflowViewState.IdRef="Sequence_316">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="988,122" sap2010:WorkflowViewState.IdRef="Delay_40" />
-                                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="988,189" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                                                                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="990,122" sap2010:WorkflowViewState.IdRef="Delay_40" />
+                                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,189" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
                                                                             <uix:NClick.Target>
                                                                               <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="eb74c921-dd58-4349-9a39-cf1d139f053c" ContentHash="gR8EDOZBaEGbFrETYto6KQ" CvElementArea="1018, 643, 288, 49" CvTextArea="1138, 661, 48, 12" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="1019, 644, 287, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="056ac1c5-6dc4-4440-b105-b7a02a0f59b2" InformativeScreenshot="c009c10afe674779e6b64e65fbb4d137.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/GSrzYNvz10idk5OKV3Q12A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                                                                             </uix:NClick.Target>
                                                                           </uix:NClick>
-                                                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="988,57" sap2010:WorkflowViewState.IdRef="CommentOut_53">
+                                                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="990,57" sap2010:WorkflowViewState.IdRef="CommentOut_53">
                                                                             <ui:CommentOut.Body>
                                                                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_331">
                                                                                 <sap:WorkflowViewStateService.ViewState>
@@ -3665,15 +3665,15 @@
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
                                                                           </ui:CommentOut>
-                                                                          <uix:NCheckState DisplayName="Check App State 'SuccessBulk mapping has…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="988,1334" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="10" Version="V5">
+                                                                          <uix:NCheckState DisplayName="Check App State 'SuccessBulk mapping has…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="990,2659" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="10" Version="V5">
                                                                             <uix:NCheckState.IfExists>
-                                                                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484,1094" sap2010:WorkflowViewState.IdRef="Sequence_313">
+                                                                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,2419" sap2010:WorkflowViewState.IdRef="Sequence_313">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_54">
+                                                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_54">
                                                                                   <ui:CommentOut.Body>
                                                                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,304" sap2010:WorkflowViewState.IdRef="Sequence_332">
                                                                                       <sap:WorkflowViewStateService.ViewState>
@@ -3713,13 +3713,13 @@
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                                 </ui:CommentOut>
-                                                                                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="450,122" sap2010:WorkflowViewState.IdRef="Delay_47" />
-                                                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'detail status(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                                                                                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="452,122" sap2010:WorkflowViewState.IdRef="Delay_47" />
+                                                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'detail status(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,189" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
                                                                                   <uix:NClick.Target>
                                                                                     <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="7337a20a-bf61-4bb2-a7cd-51395e48db63" ContentHash="tEEneG4SBEWTFXN87tNR9g" CvTextArea="828, 309, 68, 13" CvTextArgument="detail status." CvType="Text" DesignTimeRectangle="828, 302, 65, 30" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='detail status' tag='BUTTON' type='button' /&gt;" Guid="ebf0261b-7593-400c-b76c-b171b77a742e" InformativeScreenshot="ff5efdb533e584c2690595fe62b2a102.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/oQ-3FLNzBUOEe8dUfIVB9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                                                                                   </uix:NClick.Target>
                                                                                 </uix:NClick>
-                                                                                <ui:OnUiElementAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Element Appear 'SPAN'" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="OnUiElementAppear_1" RepeatForever="False" WaitActive="True" WaitVisible="True">
+                                                                                <ui:OnUiElementAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Element Appear 'SPAN'" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="OnUiElementAppear_1" RepeatForever="False" WaitActive="True" WaitVisible="True">
                                                                                   <ui:OnUiElementAppear.Body>
                                                                                     <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,412" sap2010:WorkflowViewState.IdRef="Sequence_333">
                                                                                       <sap:WorkflowViewStateService.ViewState>
@@ -3745,7 +3745,7 @@
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                                 </ui:OnUiElementAppear>
-                                                                                <Sequence DisplayName="Lookup Verification" sap:VirtualizedContainerService.HintSize="450,557" sap2010:WorkflowViewState.IdRef="Sequence_348">
+                                                                                <Sequence DisplayName="Lookup Verification" sap:VirtualizedContainerService.HintSize="452,1882" sap2010:WorkflowViewState.IdRef="Sequence_348">
                                                                                   <Sequence.Variables>
                                                                                     <Variable x:TypeArguments="x:String" Name="Processed" />
                                                                                   </Sequence.Variables>
@@ -3755,7 +3755,7 @@
                                                                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LookupVerification - Invoke Workflow File (LookupVerification.xaml)" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="LookupVerification.xaml">
+                                                                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LookupVerification - Invoke Workflow File (LookupVerification.xaml)" sap:VirtualizedContainerService.HintSize="418,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="LookupVerification.xaml">
                                                                                     <ui:InvokeWorkflowFile.Arguments>
                                                                                       <InArgument x:TypeArguments="x:String" x:Key="Restaurant">[Restaurant]</InArgument>
                                                                                       <OutArgument x:TypeArguments="x:String" x:Key="Processed">[Processed]</OutArgument>
@@ -3763,9 +3763,9 @@
                                                                                       <InArgument x:TypeArguments="x:String" x:Key="OrderServerURL">[OrderServerURL]</InArgument>
                                                                                     </ui:InvokeWorkflowFile.Arguments>
                                                                                   </ui:InvokeWorkflowFile>
-                                                                                  <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_6" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V5" />
-                                                                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_50" />
-                                                                                  <ui:IfElseIfV2 Condition="[Processed = &quot;NO&quot; or Processed = &quot;FAILED&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
+                                                                                  <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="418,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_6" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V5" />
+                                                                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="418,122" sap2010:WorkflowViewState.IdRef="Delay_50" />
+                                                                                  <ui:IfElseIfV2 Condition="[Processed = &quot;NO&quot; or Processed = &quot;FAILED&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="418,1375" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
                                                                                     <ui:IfElseIfV2.Else>
                                                                                       <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="Sequence_355">
                                                                                         <sap:WorkflowViewStateService.ViewState>
@@ -3809,8 +3809,8 @@
                                                                                     </ui:IfElseIfV2.ElseIfs>
                                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                                       </scg:Dictionary>
                                                                                     </sap:WorkflowViewStateService.ViewState>
                                                                                     <ui:IfElseIfV2.Then>
@@ -3841,7 +3841,7 @@
                                                                                     </ui:IfElseIfV2.Then>
                                                                                   </ui:IfElseIfV2>
                                                                                 </Sequence>
-                                                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="CommentOut_60">
+                                                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,50" sap2010:WorkflowViewState.IdRef="CommentOut_60">
                                                                                   <ui:CommentOut.Body>
                                                                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,248" sap2010:WorkflowViewState.IdRef="Sequence_353">
                                                                                       <sap:WorkflowViewStateService.ViewState>
@@ -4014,7 +4014,7 @@
                                                   </ActivityAction>
                                                 </uix:NApplicationCard.Body>
                                                 <uix:NApplicationCard.TargetApp>
-                                                  <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="wXLP5LicXUGhgFEFfOvjSA" IconBase64="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" InformativeScreenshot="dcee5ec5202364c68f301a78cf9309ff.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/bjwIe8SO2E2QmptjJ3Ipjw" Selector="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V2" />
+                                                  <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="DW97LrTx1UGnCHagVYwzRg" IconBase64="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" InformativeScreenshot="dcee5ec5202364c68f301a78cf9309ff.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/bjwIe8SO2E2QmptjJ3Ipjw" Selector="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V2" />
                                                 </uix:NApplicationCard.TargetApp>
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -4269,13 +4269,13 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1912,108" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1878,48" sap2010:WorkflowViewState.IdRef="CommentOut_39">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="CommentOut_39">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,650" sap2010:WorkflowViewState.IdRef="Sequence_265">
                         <sap:WorkflowViewStateService.ViewState>
@@ -4335,7 +4335,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
-    <Sequence DisplayName="Write File and Upload to SharePoint" sap:VirtualizedContainerService.HintSize="1950,1759" sap2010:WorkflowViewState.IdRef="Sequence_93">
+    <Sequence DisplayName="Write File and Upload to SharePoint" sap:VirtualizedContainerService.HintSize="504,1759" sap2010:WorkflowViewState.IdRef="Sequence_93">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
