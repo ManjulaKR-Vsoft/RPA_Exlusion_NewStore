@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tEEneG4SBEWTFXN87tNR9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="7337a20a-bf61-4bb2-a7cd-51395e48db63" CvTextArea="828, 309, 68, 13" CvTextArgument="detail status." CvType="Text" DesignTimeRectangle="828, 302, 65, 30" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='detail status' tag='BUTTON' type='button' /&gt;" Guid="ebf0261b-7593-400c-b76c-b171b77a742e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ff5efdb533e584c2690595fe62b2a102.png" xmlns="">0MzQjPUZqh0OVxv3iiKQ0CQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

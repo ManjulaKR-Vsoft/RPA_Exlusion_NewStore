@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_f_xzf3dykiPoBFPzLz-iQ" Reference="mEDzMWy4KESA-HIzYnwmGQ/1Da_MM5pyUKYuvNOsOOllA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionBatch" CVScreenId="726a9a1d-a788-4e99-aeb0-179b29499578" CvElementArea="57, 249, 113, 30" CvTextArea="66, 257, 95, 17" CvTextArgument="Completed : *" CvType="Button" DesignTimeRectangle="59, 251, 110, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Completed :  *' tag='SPAN' /&gt;" Guid="a043ce17-5874-4280-852f-df93acef15d9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="84bf33fcd41c11d1f3686f29928e372b.png" xmlns="">08pckzztNikWBoyhGWWKohg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
