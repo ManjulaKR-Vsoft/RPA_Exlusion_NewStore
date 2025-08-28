@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LtSofi9k2UCo5yjZiAnuZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" CVScreenId="b9e3c362-6c96-41ec-b3cf-649bd9db301f" CvTextArea="576, 540, 222, 18" CvTextArgument="There are no records to display" CvType="Text" DesignTimeRectangle="554, 513, 267, 72" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='There are no records to display' parentid='root' tag='DIV' /&gt;" Guid="9cd6beee-0ea1-4b16-b835-fa9eaefaf35f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion Lookup-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aef86b8154e215c33414af527ab4590e.png" xmlns="">0dvB9d3oY0Uerj8IB2sQ4Wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

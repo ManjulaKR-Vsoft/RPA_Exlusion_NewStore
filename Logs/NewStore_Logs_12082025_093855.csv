@@ -1,0 +1,34 @@
+﻿Scenario,Product,Product_Name,ProductID,Entity Found,Submit Status,MissingChannels
+New Store 1,Item,,32445,YES,Success,
+New Store 1,Item,," 32701",YES,Success,
+New Store 2,Item,,32980,YES,Success,
+New Store 2,Item,," 33211",YES,Success,
+New Store 3,Item,,33238,YES,Success,
+New Store 4,Item,,30050,YES,Success,
+New Store 4,Item,," 30995",YES,Success,
+New Store 5,Item,,32903,YES,Success,
+New Store 5,Item,," 32902",YES,Success,
+New Store 6,Category,," 32902",,FAILED. Error at Row No:5 Sheet New Store,"Store, Channel, or Service might be missing"
+New Store 7,Category,,20079,YES,Success,
+New Store 7,Category,," 20078",YES,Success,
+New Store 7,Category,," 20081",YES,Success,
+New Store 8,Category,," 20081",,FAILED. Error at Row No:7 Sheet New Store,"Store, Channel, or Service might be missing"
+New Store 9,Category,,20079,YES,Success," Menulog, Ubereats, Doordash"
+New Store 9,Category,," 20078",YES,Success," Menulog, Ubereats, Doordash"
+New Store 9,Category,," 20081",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,,30966,YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 32390",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 32558",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 32563",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 32597",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 32598",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 30050",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 30094",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 31507",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 31506",YES,Success," Menulog, Ubereats, Doordash"
+New Store 10,Item,," 31508",YES,Success," Menulog, Ubereats, Doordash"
+New Store 11,Modifier,,40946,YES,Success," Menulog, Ubereats, Doordash"
+New Store 11,Modifier,," 40947",YES,Success," Menulog, Ubereats, Doordash"
+New Store 11,Modifier,," 42079",YES,Success," Menulog, Ubereats, Doordash"
+New Store 11,Modifier,," 141099",YES,Success," Menulog, Ubereats, Doordash"
+New Store 11,Modifier,," 141101",YES,Success," Menulog, Ubereats, Doordash"

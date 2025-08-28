@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Product Exclusion Advan…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZW9Ud_NL7kGOtg97UDktpA",
+  "Reference": "mEDzMWy4KESA-HIzYnwmGQ/ZW9Ud_NL7kGOtg97UDktpA",
+  "ParentRef": "mEDzMWy4KESA-HIzYnwmGQ/bjwIe8SO2E2QmptjJ3Ipjw",
+  "Created": "2025-08-28T04:11:16.4191738Z",
+  "Updated": "2025-08-28T04:11:16.4191738Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

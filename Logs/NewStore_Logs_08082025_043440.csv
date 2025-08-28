@@ -1,0 +1,41 @@
+﻿Scenario,Product,Product_Name,ProductID,Entity Found,Submit Status
+Scenario 1,Item,,32445,YES,Success
+Scenario 1,Item,," 32701",YES,Success
+Scenario 2,Item,,32980,YES,Success
+Scenario 2,Item,," 33211",YES,Success
+Scenario 3,Item,,33238,YES,Success
+Scenario 4,Item,,30050,YES,Success
+Scenario 4,Item,," 30995",YES,Success
+Scenario 5,Item,,32903,YES,Success
+Scenario 5,Item,," 32902",YES,Success
+Scenario 6,Category,,20079,YES,Success
+Scenario 7,Category,,20079,YES,Success
+Scenario 7,Category,," 20078",YES,Success
+Scenario 7,Category,," 20081",YES,Success
+Scenario 8,Category,,20021,YES,Success
+Scenario 8,Category,," 20038",YES,Success
+Scenario 8,Category,," 20053",YES,Success
+Scenario 8,Category,,20035,YES,Success
+Scenario 8,Category,," 20052",YES,Success
+Scenario 8,Category,," 20069",YES,Success
+Scenario 8,Category,," 20080",YES,Success
+Scenario 8,Category,," 20060",YES,Success
+Scenario 9,Category,,20079,YES,Success
+Scenario 9,Category,," 20078",YES,Success
+Scenario 9,Category,," 20081",YES,Success
+Scenario 10,Item,,30966,YES,Success
+Scenario 10,Item,," 32390",YES,Success
+Scenario 10,Item,," 32558",YES,Success
+Scenario 10,Item,," 32563",YES,Success
+Scenario 10,Item,," 32597",YES,Success
+Scenario 10,Item,," 32598",YES,Success
+Scenario 10,Item,," 30050",YES,Success
+Scenario 10,Item,," 30094",YES,Success
+Scenario 10,Item,," 31507",YES,Success
+Scenario 10,Item,," 31506",YES,Success
+Scenario 10,Item,," 31508",YES,Success
+Scenario 11,Modifier,,40946,YES,Success
+Scenario 11,Modifier,," 40947",YES,Success
+Scenario 11,Modifier,," 42079",YES,Success
+Scenario 11,Modifier,," 141099",YES,Success
+Scenario 11,Modifier,," 141101",YES,Success
