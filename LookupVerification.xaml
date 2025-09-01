@@ -146,7 +146,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NGoToUrl DisplayName="Go To URL - cognizantorderservnxtgen.com" sap:VirtualizedContainerService.HintSize="1528,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" Version="V5" />
+                  <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="1528,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[OrderServerURL+&quot;/ProductExclusionLookupAdvance&quot;]" Version="V5" />
                   <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="1528,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
                   <Sequence DisplayName="Select Restaurant" sap:VirtualizedContainerService.HintSize="1528,57" sap2010:WorkflowViewState.IdRef="Sequence_8">
                     <Sequence.Variables>
