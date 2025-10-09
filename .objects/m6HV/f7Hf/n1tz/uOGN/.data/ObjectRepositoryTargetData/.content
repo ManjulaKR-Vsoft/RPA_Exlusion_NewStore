@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pwwayL0VuUCGnakU5TrYOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" CVScreenId="a43309b2-5e5e-4ca0-8663-5316b059ba9b" CvElementArea="55, 365, 296, 35" CvType="InputBox" DesignTimeRectangle="59, 366, 110, 29" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentname='formSubmit' tag='BUTTON' type='button' class='p-1 m-0 clearOption btn btn-link' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="82120b99-efb3-4f76-8cea-6735eb861f79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion Lookup-KFC-Australia-Admin' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a43309b2-5e5e-4ca0-8663-5316b059ba9b" CvTextArea="58, 350, 117, 16" CvTextArgument="Select Channel Type" CvType="Text" DesignTimeRectangle="59, 348, 115, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Select Channel Type' parentname='formSubmit' tag='SPAN' type='' class='custom-select-label custom-dropdown-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Channel Type' /&gt;" Guid="85341848-ddbe-45ae-bad5-e2d10a8f5eb9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de8996f21e82a79d081667718cf13d07.png" xmlns="">0wuS8BIRoz0GxUml10ft_xA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

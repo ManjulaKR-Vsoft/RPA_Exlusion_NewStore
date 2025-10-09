@@ -1,0 +1,22 @@
+﻿Select Restaurant,Select Channel Type,Select Service Type
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App",Pickup
+All,"Web, App",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App",Pickup
+All,"Menulog, Ubereats, Doordash",Delivery
+All,"Web, App, Menulog, Ubereats, Doordash",Delivery
+All,"Web, App, Menulog, Ubereats, Doordash",Delivery
+All,"Web, App, Menulog, Ubereats, Doordash",Delivery
+All,"Web, App, Menulog, Ubereats, Doordash",Delivery
+All,"Web, App",Delivery
+All,Menulog,Delivery
+All,Menulog,Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery

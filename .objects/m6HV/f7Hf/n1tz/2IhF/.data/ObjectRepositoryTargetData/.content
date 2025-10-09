@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="82ohyD0CQ0m41AVzVJOzSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" CVScreenId="c5749491-ed8d-4f95-9021-d31231279e39" CvElementArea="55, 365, 295, 35" CvType="InputBox" DesignTimeRectangle="59, 366, 267, 29" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='10' parentid='root' parentname='formSubmit' tag='DIV' /&gt;" Guid="de37b424-ffd9-411a-ae4a-2d22924c3444" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion Lookup-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c5749491-ed8d-4f95-9021-d31231279e39" CvTextArea="58, 350, 117, 16" CvTextArgument="Select Channel Type" CvType="Text" DesignTimeRectangle="59, 348, 115, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Select Channel Type' parentname='formSubmit' tag='SPAN' type='' class='custom-select-label custom-dropdown-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Channel Type' /&gt;" Guid="ebf8c62e-3506-43db-ab29-c33709724026" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="94fcc79f84d75d8917cbd9ca217e996f.png" xmlns="">0PYZuxzltvE6_Y_GQqt2HCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

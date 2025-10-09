@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AJVaPJiO-kW1K9gu5Rxqeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="43c692b1-df98-4a24-a51a-6fa74f39faba" CvElementArea="1146, 538, 193, 51" CvTextArea="1216, 557, 50, 12" CvTextArgument="UPDATE" CvType="Button" DesignTimeRectangle="1147, 540, 189, 48" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="00c95b15-1173-41c3-9ebe-7e2670aa4593" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f583c81b50d6ff71979946fea5e6912.png" xmlns="">0b51DGmETn0GhFwuxPGn1sQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

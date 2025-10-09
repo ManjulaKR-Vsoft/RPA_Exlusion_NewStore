@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0A2uOGzDN06YOolYhBJVUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" CVScreenId="15a27173-c732-4217-a6bf-2a57491ea9a1" CvTextArea="63, 374, 102, 12" CvTextArgument="7 Of 7 Selected X" CvType="Text" DesignTimeRectangle="59, 366, 267, 29" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='9' parentid='root' parentname='formSubmit' tag='DIV' /&gt;" Guid="1e983a96-a9a5-4b45-bc33-76f583d320e9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion Lookup-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="15a27173-c732-4217-a6bf-2a57491ea9a1" CvTextArea="58, 350, 117, 16" CvTextArgument="Select Channel Type" CvType="Text" DesignTimeRectangle="59, 348, 115, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Select Channel Type' parentname='formSubmit' tag='SPAN' type='' class='custom-select-label custom-dropdown-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Channel Type' /&gt;" Guid="12199f1a-2410-4162-bef8-1bc5fd09fd6f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9585a517770e4fe340df929e9df20875.png" xmlns="">0EukYv1GUiEqHjdbhnXDpoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

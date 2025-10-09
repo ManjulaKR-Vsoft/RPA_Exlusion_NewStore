@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5T1S3q7jwkO9hzR5TiaYNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionLookupAdvance" CVScreenId="23ea39f8-ca3d-48a4-8d7c-4fa6ea96dbeb" CvElementArea="55, 365, 296, 35" CvType="InputBox" DesignTimeRectangle="54, 363, 298, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Dropdown select' type='' tag='DIV' class='react-dropdown-select channelTypes-select-7 menu-outer-top css-16vukcu e1gzf2xs0' aaname='' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd11585d-d3f3-45c0-89cb-8b393dccde7d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion Lookup-KFC-Australia-Admin' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="23ea39f8-ca3d-48a4-8d7c-4fa6ea96dbeb" CvTextArea="58, 350, 117, 16" CvTextArgument="Select Channel Type" CvType="Text" DesignTimeRectangle="59, 348, 115, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Select Channel Type' parentname='formSubmit' tag='SPAN' type='' class='custom-select-label custom-dropdown-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Channel Type' /&gt;" Guid="310e2e44-0ade-4963-82a1-fd1d1fa161f2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fa67de6e25609c8ec5820f6b2faebb3.png" xmlns="">0siR-rG7xPEqIB8ahih4Pug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
