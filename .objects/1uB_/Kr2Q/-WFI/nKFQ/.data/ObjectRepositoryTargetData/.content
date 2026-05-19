@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QocxoDvgrkioSo_u4_CSkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="settings/clearBrowserData" CVScreenId="e52e46d6-4464-4b09-a348-951008470bf0" CvElementArea="830, 599, 104, 39" CvTextArea="846, 611, 70, 13" CvTextArgument="Delete data" CvType="Button" DesignTimeRectangle="831, 600, 100, 36" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete data' /&gt;" Guid="0c8bdef5-29e3-4297-a57b-56e695589038" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Settings - Privacy and security - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e52e46d6-4464-4b09-a348-951008470bf0" CvElementArea="830, 599, 104, 39" CvTextArea="846, 611, 70, 13" CvTextArgument="Delete data" CvType="Button" DesignTimeRectangle="847, 609, 68, 17" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete data' /&gt;" Guid="2ea5930e-f4da-4812-9b3e-79e2438d9e67" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="246a71645c6b78b8e6239bf47ed24601.png" xmlns="">0sCdJUPebtEuql3uPiIKnkA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

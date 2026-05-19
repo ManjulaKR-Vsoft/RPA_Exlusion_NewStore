@@ -1,22 +1,2 @@
 ﻿Scenarios,Select Restaurant,Select Channel Type,Select Service Type,Entity,Sub-Entity ID,Reason For Exclusion,Active,Lookup Status,Lookup Count
-New Store 01,All,"Web, App, Kiosk",Pickup,Item,"32445, 32701",Delivery Feast only available on DD UE and DaaS Delivery I,,Lookup Found YES,16
-New Store 02,All,"Web, App, Kiosk",Pickup,Product,"32445, 32701",Delivery Feast only available on DD UE and DaaS Delivery P,,Lookup Found YES,8
-New Store 03,All,"Web, App, Kiosk",Pickup,Item,"32980, 33211",Delivery Feast not available on pickup I,,Lookup Found YES,12
-New Store 04,All,"Web, App, Kiosk",Pickup,Product,"32980, 33211",Delivery Feast not available on pickup P,,Lookup Found YES,12
-New Store 05,All,"Web, App",Pickup,Item,33238,My Bucket only available on DaaS I,,Lookup Found YES,6
-New Store 06,All,"Web, App",Pickup,Product,33238,My Bucket only available on DaaS P,,Lookup Found YES,6
-New Store 07,All,"Web, App, Kiosk",Pickup,Item,"31005, 30995",Reg and Large Chips only available on DD UE and DaaS I,,Lookup Found YES,8
-New Store 08,All,"Web, App, Kiosk",Pickup,Product,"31005, 30995",Reg and Large Chips only available on DD UE and DaaS P,,Lookup Found YES,16
-New Store 09,All,"Web, App, Kiosk",Pickup,Item,"32902, 32903",ML Reg and Large Chips not avail on pickup I,,Lookup Found YES,8
-New Store 10,All,"Web, App, Kiosk",Pickup,Product,"32902, 32903",ML Reg and Large Chips not avail on pickup P,,Lookup Found YES,12
-New Store 11,All,"Web, App",Pickup,Category,"20079, 20078, 20081",Pickup - Kiosk only categories,,Lookup Found YES,12
-New Store 12,All,"Menulog, Ubereats, Doordash",Delivery,Category,"20021, 20038, 20053,20035, 20052, 20069, 20080, 20060",Excluded categories from all Aggs for delivery,,Lookup Found YES,66
-New Store 13,All,"Web, App, Menulog, Ubereats, Doordash",Delivery,Category,"20079, 20078, 20081, 20082",Delivery - Kiosk only categories,,Lookup Found YES,40
-New Store 14,All,"Web, App, Menulog, Ubereats, Doordash",Delivery,Item,"30966, 32390, 32558, 32563, 32597, 32598, 30050, 30094, 31507, 31506, 31508",Pickup only items I,,Lookup Found YES,130
-New Store 15,All,"Web, App, Menulog, Ubereats, Doordash",Delivery,Product,"30966, 32390, 32558, 32563, 32597, 32598, 30050, 30094, 31507, 31506, 31508",Pickup only items P,,Lookup Found YES,170
-New Store 16,All,"Web, App, Menulog, Ubereats, Doordash",Delivery,Modifier,"40946, 40947, 42079, 141099, 141101",Pickup only modifiers,,Lookup Found YES,110
-New Store 17,All,"Web, App",Delivery,Category,20080,Everyday value category not avail on delivery,,Lookup Found YES,4
-New Store 18,All,Menulog,Delivery,Item,"32701, 31005, 30995, 32445",Delivery Feast and Chips not available on ML I,,Lookup Found YES,8
-New Store 19,All,Menulog,Delivery,Product,"32701, 31005, 30995, 32445",Delivery Feast and Chips not available on ML P,,Lookup Found YES,12
-New Store 20,All,"Web, App, Ubereats, Doordash",Delivery,Item,"32980, 33211, 32902, 32903",Delivery Feast and Chips only available ML Delivery I,,Lookup Found YES,32
-New Store 21,All,"Web, App, Ubereats, Doordash",Delivery,Product,"32980, 33211, 32902, 32903",Delivery Feast and Chips only available ML Delivery P,,Lookup Found YES,32
+New Store 01,"Goulburn South, Benalla, Taree Service Centre","Web, App, Kiosk",Pickup,Item,"32445, 32701",I - Delivery Feast only available on Aggs and DaaS Delivery,,Lookup Found YES,74

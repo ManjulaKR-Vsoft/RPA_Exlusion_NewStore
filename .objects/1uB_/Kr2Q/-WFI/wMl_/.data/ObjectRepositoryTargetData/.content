@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sNy8dJQLqEKIViDHNbXJBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="settings/clearBrowserData" CVScreenId="e52e46d6-4464-4b09-a348-951008470bf0" CvElementArea="830, 599, 104, 39" CvTextArea="846, 611, 70, 13" CvTextArgument="Delete data" CvType="Button" DesignTimeRectangle="831, 600, 100, 36" FullSelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' /&gt;&lt;ctrl name='Delete data' role='push button' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="24ae9c97-d849-4cfe-8c55-878b18c9dca1" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Settings - Privacy and security - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e87e6fadbe3f8047a9446873e4578064.png" xmlns="">0wMy_G2WmXkymWJ7fTABtqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

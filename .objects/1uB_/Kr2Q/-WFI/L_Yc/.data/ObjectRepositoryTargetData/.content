@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tTHo4sDfGEGGxQRCJDS2zA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="settings/clearBrowserData" CVScreenId="2822d39e-9c8c-4f63-b39d-979719496d10" CvElementArea="757, 624, 172, 39" CvTextArea="774, 637, 138, 13" CvTextArgument="Delete from this device" CvType="Button" DesignTimeRectangle="758, 626, 169, 37" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete from this device' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete from this device' /&gt;" Guid="7a576801-3b40-4d06-81dc-90c6f7966aa6" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Settings - Privacy and security - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2822d39e-9c8c-4f63-b39d-979719496d10" CvElementArea="757, 624, 172, 39" CvTextArea="774, 637, 138, 13" CvTextArgument="Delete from this device" CvType="Button" DesignTimeRectangle="774, 635, 137, 18" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete from this device' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete from this device' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete from this device' /&gt;" Guid="632b7029-2fd0-4728-a64d-36b4dec8038a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="72ca9c783e8be660b00896978c9094a8.png" xmlns="">0Q4DZIXpL90ybnHZ8A6_vXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

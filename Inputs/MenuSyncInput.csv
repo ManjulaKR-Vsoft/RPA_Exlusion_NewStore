@@ -1,22 +1,15 @@
 ﻿Select Restaurant,Select Channel Type,Select Service Type
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App",Pickup
-All,"Web, App",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App, Kiosk",Pickup
-All,"Web, App",Pickup
-All,"Menulog, Ubereats, Doordash",Delivery
-All,"Web, App, Menulog, Ubereats, Doordash",Delivery
-All,"Web, App, Menulog, Ubereats, Doordash",Delivery
-All,"Web, App, Menulog, Ubereats, Doordash",Delivery
-All,"Web, App, Menulog, Ubereats, Doordash",Delivery
-All,"Web, App",Delivery
-All,Menulog,Delivery
-All,Menulog,Delivery
-All,"Web, App, Ubereats, Doordash",Delivery
-All,"Web, App, Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Kiosk",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Kiosk",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Kiosk",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Kiosk",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Web, App",Pickup
+"Goulburn South, Benalla, Taree Service Centre","Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre",Ubereats,Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App, Ubereats, Doordash",Delivery
+"Goulburn South, Benalla, Taree Service Centre","Web, App",Delivery
